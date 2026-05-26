@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <form action="thankyou.html" method="post">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" placeholder="Enter your name" require></td>
+            </tr>
+            <tr>
+                <td>Surname</td>
+                <td><input type="text" name="sname"></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Mobile </td>
+                <td><input type="tel"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea rows="10" cols="20" ></textarea></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male <input type="radio" name="gender" value="male">
+                    Female <input type="radio" name="gender" value="female">
+                    Other <input type="radio" name="gender" value="other">
+                </td>
+            </tr>
+            <tr>
+                <td>Hobby</td>
+                <td>
+                    Cricket<input type="checkbox" name="hobby" value="cricket">
+                    Football<input type="checkbox"  name="hobby" value="football">
+                    Basketball<input type="checkbox"  name="hobby" value="basketball">
+                </td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <!-- <td><input type="date"></td> -->
+                 <!-- <td><input type="datetime-local" name="dob"></td> -->
+                    <!-- <td><input type="month" name="dob"></td> -->
+                    <!-- <td><input type="week" name="dob"></td> -->
+                     <td><input type="time" name="dob"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    <select name="city">
+                        <optgroup label="Gujarat">
+                            <option disabled selected>--Select City--</option>
+                            <option value="surat">Surat</option>
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="vadodara" disabled>vadodara</option>
+                            <option value="gandhinagar">gandhinagar</option>
+                        </optgroup>
+                        <optgroup label="Rajasthan" disabled>
+                            <option value="jaipur">Jaipur</option>
+                            <option value="udaipur">udaipur</option>
+                            <option value="sikar">sikar</option>
+                            <option value="jaisalmer">jaisalmer</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Attache document</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td><input type="color" name="color"></td>
+                <td><input type="range" name="salary"></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+
+    
+</body>
+</html>
+
+
+<!-- name=Aashiq&sname=Singh&dob=&city=surat&color=%23000000&salary=50 -->
