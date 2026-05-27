@@ -1,0 +1,9 @@
+CSS --> cascading style sheets
+
+CSS --> hakon wium lie --> 1996
+
+
+There are three ways to define CSS:
+1. external css [.css]
+2. internal css <style>
+3. inline css style=""
