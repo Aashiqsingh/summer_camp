@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url('https://images.unsplash.com/photo-1463947628408-f8581a2f4aca?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+    }
+    #img1{
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        bottom: 0px;
+
+        animation-name: balloon1;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes balloon1{
+        from{
+            bottom: 0px;
+            left: 0px;
+        }
+        to{
+            bottom: 600px;
+            left: 200px;
+        }
+    }
+    #img2{
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        bottom: 0px;
+        left: 200px;
+
+        animation-name: balloon2;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-delay: 3s;
+    }
+    @keyframes balloon2{
+        from{
+            bottom: 0px;
+            left: 200px;
+        }
+        to{
+            bottom: 600px;
+            left: 400px;
+        }
+    }
+</style>
+<body>
+
+
+    <img src="https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-Clipart.png" id="img1">
+
+
+    <img src="https://www.pngall.com/wp-content/uploads/3/Air-Balloon.png" id="img2" alt="">
+    
+</body>
+</html>
